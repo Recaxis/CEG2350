@@ -32,7 +32,7 @@ World
 1. SSH command to sign in to your AWS instance:
 
 ```
-
+ ssh -1  ~/labuser.pem ec2-user@44.212.63.201
 ```
 
 ## Part 5 Answers
@@ -40,5 +40,5 @@ World
 1. Command to clone your GitHub repository:
 
 ```
-
+git clone git@github.com:Recaxis/CEG2350.git
 ```
