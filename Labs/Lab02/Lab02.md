@@ -21,7 +21,12 @@ Part 2 Answers
 8 'cd'
 Part 3 Answers
 For each, write the command used or answer the question posed.
-
+1 'addgroup --system crew'
+2 'addgroup bob crew' 'addgroup elite crew'
+3 'sudo chown bob:Guest DirA'
+4 'su bob'
+5 'cd DirA' 'touch file'
+6 bob is now in the same group that owns the file DirA
 Part 4 Answers
 For each, write the command used or answer the question posed.
 
