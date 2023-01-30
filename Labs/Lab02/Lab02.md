@@ -57,11 +57,14 @@ For each, write the command used or answer the question posed.
 Part 4 Answers
 
 For each, write the command used or answer the question posed.
+1 'sudo touch sudowho.txt'
+2 the user "root" can read and write, the group and others can only read
+3 'sudo vim sudowho.txt'
 
 Part 5 Answers
 
-ssh command before configuring config file
-:
+ssh command before configuring config file:
+
 HostName:
 
 User:
