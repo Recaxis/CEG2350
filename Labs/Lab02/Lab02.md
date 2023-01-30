@@ -63,16 +63,20 @@ For each, write the command used or answer the question posed.
 
 Part 5 Answers
 
-ssh command before configuring config file:
+ssh command before configuring config file:ssh -i labsuser.pem ec2-user@44.206.231.127
 
-HostName:
+HostName:44.206.231.127
 
-User:
+User:ec2-user
 
-IdentityFile:
+IdentityFile://wsl.localhost/Ubuntu/home/elite/labsuser.pem
 
 ~/.ssh/config contents:
 
-Paste your config file entry here
+Host AWS
+    HostName 44.206.231.127 
+    User ec2-user
+    Port 22
+    IdentityFile ~/labsuser.pem
 
-ssh command after configuring config file:
+ssh command after configuring config file: ssh AWS
