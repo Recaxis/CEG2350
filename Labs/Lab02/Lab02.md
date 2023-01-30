@@ -69,14 +69,19 @@ HostName:44.206.231.127
 
 User:ec2-user
 
-IdentityFile://wsl.localhost/Ubuntu/home/elite/labsuser.pem
+IdentityFile:~/labsuser.pem
 
 ~/.ssh/config contents:
 
 Host AWS
+
     HostName 44.206.231.127 
+
     User ec2-user
+
     Port 22
+
     IdentityFile ~/labsuser.pem
+
 
 ssh command after configuring config file: ssh AWS
