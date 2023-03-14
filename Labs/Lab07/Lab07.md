@@ -58,4 +58,4 @@ Steps to open a web browser: click show applications, search for a web browser l
 Steps to install VSCode: go to the vscode website from firefox, click the download with the .deb, then open the file with software installer and click the install button 
 
 
-Steps to connect to your AWS instance from your VM: get the labsuser.pem from the AWS website in firefox on your VM, put that in a directory and then cd into that directory from terminal, `chmod 600 labsuser.pem` ssh -i labsuser.pem ec2-user@18.234.77.193
+Steps to connect to your AWS instance from your VM: get the labsuser.pem from the AWS website in firefox on your VM, put that in a directory and then cd into that directory from terminal, `chmod 600 labsuser.pem` `ssh -i labsuser.pem ec2-user@18.234.77.193`
