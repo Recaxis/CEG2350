@@ -17,13 +17,15 @@ Steps to configure virtual hardware:
  click on Hard Disk,
  double the text box on the right, 
  type in 10.00 GB 
-Screenshot of VM settings RAM.png, Version.png, HardDisk.png
+Screenshot of VM settings `![RAM](~/CEG2350/Labs/Lab07/images/RAM.png)`
+ `![Version](~/CEG2350/Labs/Lab07/images/Version.png)` 
+`![Storage](~/CEG2350/Labs/Lab07/images/HardDisk.png)`
 Steps to download an ISO: look up Ubuntu ISO for virtualbox, download
 Steps to use ISO on VM:start machine, click devices, click optical drives, click choose a disk file, select iso file
 Steps to install your distribution: hit the enter key, click install, click continue until the continue button becomes an install button, then click it, and wait a good while, then hit the continue button again and type in your name and password, then wait for it to install and download all the parts it needs to.
 Steps to boot to disk after install:enter
 Steps to use full screen mode:right ctrl + F
-Screenshot of VM running:VMRunning.png
+Screenshot of VM running:`![VM Running](~/CEG2350/Labs/Lab07/images/VMRunning.png)`
 
 Part 2 Answers
 
