@@ -20,7 +20,7 @@
               code to a plain type name. The 'i' option displays this information for a single partition.
    - `w` - Write data. Use this command to save your changes.
 4. Using the `gdisk` utility on the disk: `cd /dev` `sudo gdisk xvda` 't' '8300'
-5.Up until this point i was able to recreate every command, but then I executed the command: `sudo sfdisk --delete /dev/xvda` assuming I could fix it with a snapshot afterward or by resetting the entire thing, which I had tried before and worked fine, now my AWS instances won't launch or terminate on the spot
+5. 
 6.
 7.
 8. Skip - trust you to do it ;)
