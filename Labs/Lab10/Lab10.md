@@ -9,11 +9,11 @@
 
 ## Part 2 Answers
 
-1. Compiler:
-   - Location:
-   - Version:
-2. Command to compile:
-3. Command to run:
+1. Compiler: VSCode
+   - Location:C:\Users\alexa\AppData\Local\Programs\Microsoft VS Code
+   - Version:1.77
+2. Command to compile:`javac repeat.java`
+3. Command to run:`java repeat`
 
 - Add your compiled code to your Lab10 folder in GitHub
 
